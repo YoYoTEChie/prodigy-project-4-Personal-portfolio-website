@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="" alt="Your Photo" width="60" height="20">
+        <p>Hello! I am a passionate web developer with expertise in creating dynamic and responsive websites.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer with a background in computer science. I have a strong foundation in HTML, CSS, and JavaScript, and I am constantly learning new technologies to enhance my skills.</p>
+        <p>Education: Bachelor's Degree in Computer Science</p>
+        <p>Experience: 3 years as a Front-End Developer</p>
+    </section>
+
+    <section id="skills">
+         <h2>   Skills   </h2>
+            <p>1.Html</p>
+            <p>2.CSS</p>
+            <p>3.JavaScript</p>
+            <p>4.React</p>
+            <p>5.Node.js</p>
+            <p>6.Git</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <h3>Responsive Landing Page</h3>
+            <p>This project involves creating a stylish and interactive navigation menu for a website. The menu will stay fixed at the top of the page, so it is always visible. It will have an elegant design using HTML for structure and CSS for styling. To make the menu more engaging, JavaScript will be used to change the background color when the user scrolls the page and to highlight menu items when they are hovered over. This ensures a dynamic user experience, making it easy to navigate through the website's different sections while maintaining an appealing visual design.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <h3>Tic-Tac-Toe</h3>
+            <p>This project involves building a tic-tac-toe web application using HTML, CSS, and JavaScript. The game features an interactive user interface where players can click to place their markers (X or O) on a 3x3 grid. JavaScript functions handle user interactions, track the game state, and check for winning conditions. The project can be expanded to include an AI opponent, allowing users to play against the computer. This simple yet engaging game demonstrates the effective use of web technologies to create a fun and interactive experience for users.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <h3>Stopwatch</h3>
+            <p>This project involves building a user-friendly stopwatch web application using HTML, CSS, and JavaScript. HTML structures the elements, including the display area and control buttons for starting, pausing, resetting the stopwatch, and recording lap times. CSS styles the interface to ensure it is visually appealing and intuitive. JavaScript handles the core functionality, including time tracking, updating the display, and managing lap times. By integrating these technologies, the application allows users to measure and record time intervals accurately, providing an interactive experience that is easy to navigate and use. The project demonstrates essential web development skills and JavaScript's capabilities in real-time applications.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: Wkunalsahu1122@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kunal-sahu-a595a7292/">LinkedIn link</a></p>
+        <p>GitHub: <a href="https://github.com/YoYoTEChie">GitHub link</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 KUNAL SAHU. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
