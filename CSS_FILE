@@ -1,0 +1,85 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #e63079;
+    background-color: #8ddb51;
+}
+
+#home {
+    background-color: #bf0ffa;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/03/04/02/47/1000_F_304024789_BBRjIV7Jse8r2RVEdu6dHqZGq3RI6Zn7.jpg");
+}
+
+#about{
+    background-color: #ccc;
+}
+#skills{
+    background-color: #ccc;
+}
+#projects{
+    background-color: #ccc;
+}
+#contact {
+    background-color: #ccc;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 45%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px,0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+</style>
